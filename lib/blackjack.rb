@@ -63,5 +63,14 @@ end
 
 def runner
   # code runner here
+  welcome
+  initial_round
+  prompt_user
+  hit?(card_total)
+  if hit?(card_total) > 21
+  end
+  else
+  runner
 end
+  end
     
