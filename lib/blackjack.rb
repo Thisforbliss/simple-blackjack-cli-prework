@@ -69,7 +69,7 @@ def runner
     card_total = deal_card + deal_card 
   hit?(card_total)
   if hit?(card_total) > 21
-  puts "Game Over"
+  puts 
   else
   runner
 end
