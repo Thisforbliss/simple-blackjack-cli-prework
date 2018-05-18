@@ -70,7 +70,7 @@ def runner
   if hit?(card_total) > 21
   puts "Your cards add up to 30"
   else
-  runner
+  hit?(card_total)
 end
   end
     
