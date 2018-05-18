@@ -66,6 +66,7 @@ def runner
   welcome
   initial_round
   prompt_user
+  
   hit?(card_total)
   if hit?(card_total) > 21
   puts "Game Over"
