@@ -67,7 +67,6 @@ def runner
   initial_round
   prompt_user
     card_total = deal_card + deal_card 
-  hit?(card_total)
   if hit?(card_total) > 21
   puts "Your cards add up to 30"
   else
