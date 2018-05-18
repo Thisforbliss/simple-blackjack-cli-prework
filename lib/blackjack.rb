@@ -68,7 +68,7 @@ def runner
   prompt_user
   hit?(card_total)
   if hit?(card_total) > 21
-  end
+  puts "Game Over"
   else
   runner
 end
